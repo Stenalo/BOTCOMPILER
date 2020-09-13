@@ -1,0 +1,6 @@
+CLIENT = Twitter::REST::Client.new do |config|
+  config.consumer_key = ENV['ocl1ZAHwepn0GdqtMTKhUZKAn']
+  config.consumer_secret = ENV['4OcKgHNtRPGok3I2ZExDh4m9EDCdDB3riobsVo1OYFP1WyNz2I']
+  config.access_token = ENV['1234839407078903808-tYbonzhvoFyVe9mDSOy8qZlHK9Oldm']
+  config.access_token_secret = ENV['DCUOtNdyH9PZMSu7lJNDIHzqZ73gjeq4uZPlBjXwX3hG4']
+end
